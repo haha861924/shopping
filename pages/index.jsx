@@ -1,5 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Head from "next/head"
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="title">
-          再給我一個好棒棒貼紙 <a href="https://nextjs.org"> Next.js! </a>
+          Read {' '} <Link href="/posts/first-post">Next.js</Link>
         </h1>
         <p className="description">
           Get started by editing <code> pages / index.js </code>

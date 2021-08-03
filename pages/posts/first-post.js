@@ -1,4 +1,12 @@
+/* eslint-disable react/react-in-jsx-scope */
+import Link from 'next/link'
+
 export default function FirstPost() {
-    // eslint-disable-next-line react/react-in-jsx-scope
-    return <h2> First Post </h2>
+    
+    return (
+        <>
+        <h1> First Post</h1>
+        <h2><Link href="/">Back to home</Link></h2>
+        </>
+    )
 }
